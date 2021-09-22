@@ -10,7 +10,7 @@ class Fibonacci:
     def __next__(self):
         sequencia_fibonacci = [self.anterior]
         try:
-            self.interacao = int(input("digite "))
+            self.interacao = int(input("Digite a quantidade da sequência Fibonacci: "))
             if self.interacao == 0:
                 raise StopIteration
         except:
